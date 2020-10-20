@@ -1,0 +1,16 @@
+Create a fork of this repository - did through gitHub
+
+Clone your fork - 'git clone https://github.com/s17314/epg1_git.git'
+
+Create a branch named hw- (should point to master) - 'git checkout -b hw-s17314'
+
+Rebase branch named rebase-me on top of your branch - 'git checkout rebase-me', 
+'git rebase hw-s17314'
+
+Fast forward your branch to the tip of rebase-me - 'git checkout hw-s17314', 'git 
+merge f354e3d'
+
+Merge branch named merge-me into your branch - 'git merge merge-me', 'git nano 
+README.md' (rozwiązanie konfliktów), 'git add README.md', 'git commit -m ....'
+
+Create solution.txt file listing all comands used to perform above steps
